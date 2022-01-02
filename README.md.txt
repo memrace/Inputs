@@ -1,2 +1,0 @@
-Android Material Extended Inputs
-=============================================
