@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         autocomplete.set_valueWatcher(value -> {
             if (value != null)
                 Toast.makeText(this, value.name, Toast.LENGTH_LONG).show();
-            else binding.tv.setText("");
         });
     }
 }
