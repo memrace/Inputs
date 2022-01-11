@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Autocomplete">
+        <attr name="inputHeight" format="dimension" />
+        <attr name="inputLabel" format="string" />
+        <attr name="inputHelperText" format="string" />
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="inputMode" format="enum">
+            <enum name="SOFT_AUTOCOMPLETE" value="0" />
+            <enum name="HARD_AUTOCOMPLETE" value="1" />
+            <enum name="SELECT" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

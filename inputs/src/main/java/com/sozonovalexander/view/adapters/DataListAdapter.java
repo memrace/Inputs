@@ -1,4 +1,4 @@
-package com.sozonovalexander.inputs.ui;
+package com.sozonovalexander.view.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sozonovalexander.inputs.R;
+import com.sozonovalexander.view.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class DataListAdapter extends RecyclerView.Adapter<DataListAdapter.DataListViewHolder> {
-    private List<String> localDataSet;
+    List<String> localDataSet;
     private final OnItemClickListener clickListener;
 
     public DataListAdapter(ArrayList<String> localDataSet, OnItemClickListener clickListener) {
@@ -54,8 +54,8 @@ public class DataListAdapter extends RecyclerView.Adapter<DataListAdapter.DataLi
 
         public DataListViewHolder(@NonNull View itemView) {
             super(itemView);
-            textView = (TextView) itemView.findViewById(R.id.dataListText);
-            cardView = (CardView) itemView.findViewById(R.id.dataListCard);
+            textView = itemView.findViewById(R.id.dataListText);
+            cardView = itemView.findViewById(R.id.dataListCard);
         }
 
         public TextView getTextView() {

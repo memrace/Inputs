@@ -1,4 +1,4 @@
-package com.sozonovalexander.inputs;
+package com.sozonovalexander.view;
 
 import android.content.Context;
 

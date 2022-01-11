@@ -1,4 +1,4 @@
-package com.sozonovalexander.inputs;
+package com.sozonovalexander.view;
 
 import org.junit.Test;
 

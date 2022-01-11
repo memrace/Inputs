@@ -1,4 +1,4 @@
-package com.sozonovalexander.inputs.ui;
+package com.sozonovalexander.view.api;
 
 import org.jetbrains.annotations.NotNull;
 

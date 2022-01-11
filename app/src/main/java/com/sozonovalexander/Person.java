@@ -1,4 +1,4 @@
-package com.sozonovalexander.inputs;
+package com.sozonovalexander;
 
 public class Person {
     public String name;
